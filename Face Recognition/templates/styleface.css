@@ -1,0 +1,100 @@
+#face-login{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif  ;
+
+}
+
+#name{
+    font-weight: bold;
+}
+
+body {
+    
+    background-image: url(face_ver.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+    
+    
+  }
+
+.input-box{
+   position:relative;
+}
+
+
+.input-box input{
+        
+        background:transparent ;
+        width:20%;
+        height:30px;
+        border:none ;
+        outline:none;
+        border:2px solid rgba(0, 0, 0, 0.1);
+        border-radius:40px;
+      
+    
+}
+
+.btn
+{
+  
+  font-family : "Roboto" , sans-serif;
+  font-size: 15px;
+  font-weight : bold ;
+  background :rgb(70, 255, 156);
+  width : 15%;
+  padding : 0.5em 1em ;
+  border:none;
+  outline:none;
+  text-align: center;
+  text-decoration : none;
+  text-transform: uppercase;
+  
+  background:#40a2e8;
+  border-radius: 1em;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0 , 0 ,0 , 0.1);
+  -webkit-transition-duration: 0.3s ;
+  transition-duration: 0.3s ;
+
+}
+
+btn:hover, .btn:focus , .btn:active{    
+    box-shadow: 0 0 20px rgba(0 , 0, 0 , 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background: rgb(36, 90, 192);
+  
+}
+
+.sbtn
+{
+  
+  font-family : "Roboto" , sans-serif;
+  font-size: 15px;
+  font-weight : bold ;
+  width : 15%;
+  padding : 0.5em 1em ;
+  border:none;
+  outline:none;
+  text-align: center;
+  text-decoration : none;
+  text-transform: uppercase;
+  background :rgb(70, 255, 156);
+  border-radius: 1em;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0 , 0 ,0 , 0.1);
+  -webkit-transition-duration: 0.3s ;
+  transition-duration: 0.3s ;
+
+}
+
+sbtn:hover, .sbtn:focus , .sbtn:active{    
+    box-shadow: 0 0 20px rgba(0 , 0, 0 , 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background: rgb(36, 192, 98);
+  
+}
